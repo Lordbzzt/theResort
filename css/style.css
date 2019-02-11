@@ -1,0 +1,117 @@
+/*!
+ *  ======================================
+ * Mad Copyright 2018-2019
+ *  ======================================
+ */
+
+ /* ======================================= Custom Font Styling ===================================================*/
+
+
+.accMenufont {
+  letter-spacing: 0.6rem;
+  font-weight: lighter;
+}
+
+.footerFont {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: lighter;
+  font-family: monospace;
+  color: purple;
+}
+
+
+/*  ======================================  Carousel Styling  ======================================  */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* ============================================ accordian font styling ============================================ */
+
+.accordianFont {
+  color: black;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: lighter;
+
+}
+
+.accordianFont:hover {
+  color: #D3D3D3;
+  text-decoration: none;
+  background-color: transparent;
+  border-color: none;
+}
+
+/* ======================================  collapse for the accordion ======================================  */
+
+.collapse {
+  height: 100%;
+}
+
+.va-slice
+{
+	cursor: pointer;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	overflow: hidden;
+}
+
+/* ====================================== hovering effect for the accordion button =============================== */
+
+.hovernow {
+  background-color: inherit;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hovernow:hover {
+  background-color: rgb(169,169,169);
+  box-shadow: 0 5px 15px rgb(169,169,169);
+}
+
+/* ======================================  front page fixed bottom navbar ======================================  */
+.navStyle {
+  font-size: 2rem;
+  background-color: transparent;
+
+}
+
+/* ======================================  font awesome styling ======================================  */
+.fa-black {
+  color: black;
+}
+
+.fa-black:hover {
+  color: rgb(169,169,169);
+}
+
+/* ======================================  lightbox styling ======================================  */
+
+.modal-footer {
+  color: black;
+  font-style: oblique;
+  border-top: none;
+  padding-top: 0.2rem;
+}
+
+.modal-content {
+  background-color: rgb(169,169,169);
+}
+
+/* ======================================  breadcrumb bg color ======================================  */
+
+.breadcrumb {
+  background-color: transparent;
+}
